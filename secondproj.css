@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.regular {
+  font-weight: 400;
+}
+.light {
+  font-weight: 300;
+}
+.font-size {
+  font-size: 12px;
+  line-height: 11px;
+}
+.banner {
+  background-image: url(APEIRON_01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  margin-left: 0.938rem;
+}
+.right {
+  display: flex;
+}
+.left ul li {
+  display: inline-block;
+  padding-left: 1.375rem;
+  padding-top: 1.75rem;
+}
+.right ul li {
+  display: inline-block;
+  padding-right: 1.938rem;
+  padding-top: 1.75rem;
+  color: red;
+}
+.right ul li a {
+  color: red;
+  text-decoration: none;
+}
+.left ul li a {
+  color: red;
+  text-decoration: none;
+}
+.warn {
+  color: red;
+  margin-top: 0.313rem;
+}
+/* //exercise */
+.negative {
+  /* margin-bottom: -1.8rem; */
+  text-align: center;
+  color: #f6442c;
+  position: relative;
+  z-index: 2;
+  margin-top: 1.25rem;
+  margin-bottom: -1.25rem;
+}
+.phoutos {
+  display: flex;
+  gap: 2.8rem;
+  position: relative;
+  z-index: 1;
+}
+.phoutos img {
+  width: 19.9rem;
+  height: 27.4rem;
+}
